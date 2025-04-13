@@ -16,12 +16,12 @@ coverage
 db
 db-sqlite3
 diff-match-patch
-Django>=5.1.0
+Django>=5.0.0
 django-auditlog
-django-cors-headers
+django-cors-headers>=4.3.0
 django-import-export
 django-otp
-djangorestframework>=3.15.0
+djangorestframework>=3.14.0
 djangorestframework_simplejwt
 exceptiongroup
 frozenlist
@@ -34,14 +34,14 @@ multidict
 packaging
 pluggy
 propcache
-psycopg2-binary>=2.9.0
+psycopg2-binary>=2.9.9  # For PostgreSQL support
 pyasn1
 pyasn1_modules
 PyJWT
 pytest
 pytest-django
 python-dateutil
-python-dotenv
+python-dotenv>=1.0.0
 pytz
 requests
 rsa
@@ -58,3 +58,5 @@ whitenoise
 yarl
 pyotp
 qrcode
+# Development
+django-debug-toolbar>=4.2.0
